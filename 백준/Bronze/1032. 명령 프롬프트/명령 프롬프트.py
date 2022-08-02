@@ -1,5 +1,4 @@
 import sys
-from tabnanny import check
 input = sys.stdin.readline
 N = int(input())
 cmd = [input() for _ in range(N)]
