@@ -1,6 +1,5 @@
 x_dict = {}
 y_dict = {}
-res = []
 
 for _ in range(3):
   x, y = map(int,input().split())
@@ -16,10 +15,8 @@ for _ in range(3):
 
 for k, v in x_dict.items():
   if v == 1:
-    res.append(k)
+    print(k, end=' ')
 
 for k, v in y_dict.items():
   if v == 1:
-    res.append(k)
-
-print(*res)
+    print(k)
